@@ -1,0 +1,101 @@
+/* Header.module.css */
+.header {
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Mobile Menu Button */
+.mobileMenuContainer {
+  display: block;
+}
+
+.mobileMenuButton {
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black; /* add this just in case it’s inheriting white on white */
+}
+
+.mobileMenuButton svg {
+  width: 24px;
+  height: 24px;
+  stroke: currentColor; /* ensure icon takes the color from the button */
+}
+/* Mobile logo container */
+.logoContainerMobile {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+/* Desktop Menu Container */
+.desktopMenuContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+/* Hide mobile menu and mobile logo on desktop */
+@media (min-width: 768px) {
+  .mobileMenuContainer {
+    display: none;  /* Hide the mobile menu button */
+  }
+  .logoContainerMobile {
+    display: none;  /* Hide mobile logo */
+  }
+  .desktopMenuContainer {
+    display: flex;
+  }
+}
+
+/* Desktop Menu */
+.desktopLogoContainer {
+  display: flex;
+  align-items: center;
+  padding-left: 3rem;
+}
+
+.desktopMenu {
+  display: flex;
+  gap: 1rem;
+}
+
+.desktopMenuItem {
+  cursor: pointer;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 1rem;
+  padding-right: 3rem;
+
+}
+
+.dropdownHover:hover {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 767px) {
+  .mobileMenuContainer {
+    display: block;  /* Show the mobile menu button */
+  }
+
+  .desktopMenuContainer {
+    display: none;
+  }
+}
