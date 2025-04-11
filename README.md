@@ -45,9 +45,7 @@ Ensure you have the following installed:
  ```bash
 1.cd sourceFlow-assignment
 2.npm install
-
-
-npm run dev
+3.npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
