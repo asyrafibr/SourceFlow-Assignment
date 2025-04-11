@@ -1,0 +1,7 @@
+[
+    { "name": "Microsoft", "src": "/images/microsoft.png", "width": 120, "height": 30 },
+    { "name": "Oracle", "src": "/images/oracle.png", "width": 120, "height": 20 },
+    { "name": "Atlassian", "src": "/images/atlassian.png", "width": 120, "height": 20 },
+    { "name": "Cloudflare", "src": "/images/cloudflare.png", "width": 110, "height": 40 },
+    { "name": "VMware", "src": "/images/vmware.png", "width": 110, "height": 40 }
+  ]

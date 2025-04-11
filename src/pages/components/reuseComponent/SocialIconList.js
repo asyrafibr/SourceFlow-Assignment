@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import styles from '../css/Footer.module.css';
 
-const SocialIconList = ({ icons }) => (
+const SocialIconList = ({ icons=[] }) => (
   <div className={styles.socialIcons}>
     {icons.map((icon, idx) => (
       <a key={idx} href={icon.href} target="_blank" rel="noopener noreferrer">

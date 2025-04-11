@@ -1,16 +1,16 @@
-export const menuItemsMobile = [
+{
+  "menuItemsMobile": [
     "For jobseekers",
     "For clients",
     "Sectors",
     "Resources",
     "Upload CV",
-    "Contact us",
-  ];
-  
-  export const menuItemsDesktop = [
+    "Contact us"
+  ],
+  "menuItemsDesktop": [
     "For jobseekers",
     "For clients",
     "Sectors",
-    "Resources",
-  ];
-  
+    "Resources"
+  ]
+}

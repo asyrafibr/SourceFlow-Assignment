@@ -1,0 +1,25 @@
+{
+    "socialIcons": [
+      { "name": "LinkedIn", "src": "/images/linkedin.png", "href": "https://linkedin.com" },
+      { "name": "Facebook", "src": "/images/facebook.png", "href": "https://facebook.com" },
+      { "name": "Twitter", "src": "/images/twitter.png", "href": "https://twitter.com" },
+      { "name": "Instagram", "src": "/images/instagram.png", "href": "https://instagram.com" }
+    ],
+    "exploreLinks": [
+      { "label": "For jobseekers", "href": "#" },
+      { "label": "For clients", "href": "#" },
+      { "label": "About us", "href": "#" },
+      { "label": "Contact us", "href": "#" }
+    ],
+    "sectorLinks": [
+      { "label": "Infrastructure", "href": "#" },
+      { "label": "Software dev", "href": "#" },
+      { "label": "Cloud", "href": "#" },
+      { "label": "Cyber security", "href": "#" }
+    ],
+    "serviceLinks": [
+      { "label": "Hiring", "href": "#" },
+      { "label": "Job search", "href": "#" }
+    ]
+  }
+  

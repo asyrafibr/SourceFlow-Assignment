@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "../../components/css/Hero.module.css";
-import HeroInputGroup from "../reuseComponent/HeroInputGroup";
-import HeroImages from "../reuseComponent/HeroImage";
+import styles from "./components/css/Hero.module.css";
+import HeroInputGroup from "./components/reuseComponent/HeroInputGroup";
+import HeroImages from "./components/reuseComponent/HeroImage";
 
 const Hero = () => {
   return (

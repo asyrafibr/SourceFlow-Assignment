@@ -1,6 +1,10 @@
 import React from "react";
 
 export default function MobileDropdownMenu({ items, dropdownRef }) {
+  if (!items) {
+    return <div className="position-absolute bg-white border rounded shadow p-2 mt-2" style={{ zIndex: 1000 }}>No menu items available</div>;
+  }
+
   return (
     <div
       ref={dropdownRef}

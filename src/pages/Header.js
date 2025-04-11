@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Menu } from "lucide-react";
-import RoundedButton from "../reuseComponent/RoundedButton";
-import NavigationLink from "../reuseComponent/NavigationLink";
-import MobileDropdownMenu from "../reuseComponent/MobileDropdownMenu";
-import LogoTitle from "../reuseComponent/LogoTitle";
-import styles from "../../../pages/components/css/Header.module.css";
-import { menuItemsMobile, menuItemsDesktop } from "../data/header";
+import RoundedButton from "./components/reuseComponent/RoundedButton";
+import NavigationLink from "./components/reuseComponent/NavigationLink";
+import MobileDropdownMenu from "./components/reuseComponent/MobileDropdownMenu";
+import LogoTitle from "./components/reuseComponent/LogoTitle";
+import styles from "./components/css/Header.module.css";
+import { menuItemsMobile, menuItemsDesktop } from "./components/data/header.json";
 
 export default function Header() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);

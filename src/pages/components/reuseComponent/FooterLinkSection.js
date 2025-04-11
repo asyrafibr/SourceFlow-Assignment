@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../css/Footer.module.css';
 
-const FooterLinkSection = ({ title, links }) => (
+const FooterLinkSection = ({ title, links = [] }) => (
   <div>
     <h5 className={styles.heading}>{title}</h5>
     <ul className={styles.linkList}>

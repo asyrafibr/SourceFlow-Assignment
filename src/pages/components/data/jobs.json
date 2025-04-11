@@ -1,0 +1,44 @@
+[
+  {
+    "backgroundColor": "#FCDF69",
+    "textColor": "#064EA4",
+    "badge": "Phyton",
+    "title": "Software Engineer",
+    "location": "London",
+    "wage": "£65000",
+    "locationLogo": "/images/Vector1.png",
+    "wageLogo": "/images/Vector2.png",
+    "posted": "Posted 3 days ago",
+    "iconLanguage": "/images/phyton.png",
+    "alt": "Badge Icon",
+    "detail": "Odio mi amet commodo convallis nunc. Tincidunt mauris eu egestas eget in aliquam."
+  },
+  {
+    "backgroundColor": "#064EA4",
+    "textColor": "#064EA4",
+    "badge": "Phyton",
+    "title": "Frontend Developer",
+    "location": "Manchester",
+    "wage": "£65000",
+    "locationLogo": "/images/VectorWhite.png",
+    "wageLogo": "/images/VectorWhite2.png",
+    "posted": "Posted 5 days ago",
+    "iconLanguage": "/images/phyton.png",
+    "alt": "Badge Icon",
+    "detail": "Odio mi amet commodo convallis nunc. Tincidunt mauris eu egestas eget in aliquam."
+  },
+  {
+    "backgroundColor": "#F99D76",
+    "textColor": "#064EA4",
+    "badge": "Phyton",
+    "title": "Backend Engineer",
+    "location": "Bristol",
+    "wage": "£65000",
+    "locationLogo": "/images/Vector1.png",
+    "wageLogo": "/images/Vector2.png",
+    "posted": "Posted 1 week ago",
+    "iconLanguage": "/images/phyton.png",
+    "alt": "Badge Icon",
+    "detail": "Odio mi amet commodo convallis nunc. Tincidunt mauris eu egestas eget in aliquam."
+  }
+]

@@ -1,16 +1,15 @@
 import React from 'react';
-import { brandLogos } from '../data/brand.js';
-import LogoItem from '../../components/reuseComponent/LogoItem.js';
-import SectionHeading from '../../components/reuseComponent/SectionHeading.js';
-import SectionWrapper from '../../components/reuseComponent/SectionWrapper.js';
-import styles from '../../components/css/Brand.module.css';
-
+import LogoItem from './components/reuseComponent/LogoItem.js';
+import SectionHeading from './components/reuseComponent/SectionHeading.js';
+import SectionWrapper from './components/reuseComponent/SectionWrapper.js';
+import styles from './components/css/Brand.module.css';
+import brandData from './components/data/brand.json'
 export default function Brands() {
   return (
     <SectionWrapper>
       <SectionHeading text="Who we work with" />
       <div className={styles.logoContainer}>
-        {brandLogos.map((brand, idx) => (
+        {brandData.map((brand, idx) => (
           <LogoItem
             key={idx}
             src={brand.src}

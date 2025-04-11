@@ -4,6 +4,9 @@ import Image from "next/image";
 import styles from '../../components/css/Jobs.module.css';
 
 export default function JobCard({ job, idx }) {
+  if (!job) {
+    return <div>No job data available</div>;
+  }
   return (
     <div className={styles.col}>
       <div

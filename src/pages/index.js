@@ -1,9 +1,9 @@
 import Head from 'next/head';
-import Header from './components/module/Header';
-import Hero from './components/module/Hero';
-import Brands from './components/module/Brands';
-import Jobs from './components/module/Jobs';
-import Footer from './components/module/Footer';
+import Header from './Header';
+import Hero from './Hero';
+import Brands from './Brands';
+import Jobs from './Jobs';
+import Footer from './Footer';
 
 export default function Home() {
   return (

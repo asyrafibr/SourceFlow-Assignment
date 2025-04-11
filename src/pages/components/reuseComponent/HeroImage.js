@@ -1,9 +1,9 @@
 
 import React from "react";
 import Image from "next/image";
-import forntImage from "../../components/image/frontHome.png";
-import yellowCircle from "../../components/image/Group 1.png";
-import redCircle from "../../components/image/Ellipse 1.png";
+import forntImage from "../../../../public/images/frontHome.png";
+import yellowCircle from "../../../../public/images/Group 1.png";
+import redCircle from "../../../../public/images/Ellipse 1.png";
 import styles from "../css/Hero.module.css";
 
 const HeroImages = () => {
