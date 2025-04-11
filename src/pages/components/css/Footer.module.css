@@ -1,0 +1,44 @@
+.footer {
+    background-color: #064EA4;
+    color: white;
+    padding: 3rem 0;
+  }
+  
+  .footerContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  
+  .socialIcons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .heading {
+    margin-bottom: 1rem;
+  }
+  
+  .linkList {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+  }
+  
+  .linkList li {
+    margin-bottom: 1rem;
+  }
+  
+  .link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,52 @@
+.logoContainer {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+
+.section {
+    background-color: white;
+    padding: 3rem 0;
+    text-align: center;
+  }
+  
+  .subtitle {
+    margin-bottom: 1rem;
+    font-size: 14px;
+    color: #d2d2d2;
+  }
+  
+  .logoContainer {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .logoItem {
+    padding: 0.5rem 0.75rem;
+    flex: 1 1 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .heading {
+    margin-bottom: 1rem;
+    font-size: 14px;
+    color: #d2d2d2;
+    text-align: center;
+  }
+
+  .wrapper {
+    background-color: white;
+    padding: 3rem 0;
+    text-align: center;
+  }
+  

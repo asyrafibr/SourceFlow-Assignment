@@ -1,0 +1,163 @@
+
+.heroSection {
+    background-color: #064EA4;
+    color: white;
+    padding: 5rem 0;
+    position: relative;
+  }
+  
+  .heroContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1140px; /* mimics Bootstrap container */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .heroTextWrapper {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  
+    /* Medium screens and up */
+    @media (min-width: 768px) {
+      width: 50%;
+      margin-bottom: 0;
+    }
+  }
+  
+  .heroText {
+    text-align: left;
+  }
+  /* components/css/HeroInputGroup.module.css */
+
+.inputGroup {
+    display: flex;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .input {
+    flex: 1;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    outline: none;
+  }
+  
+  .button {
+    padding: 0.5rem 1.5rem;
+    background-color: #ffc107;
+    border: none;
+    color: black;
+    font-weight: 600;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #e0a800;
+  }
+  
+ 
+  .heroImageWrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+  }
+  
+  .imageContainer {
+    position: relative;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+  }
+  
+
+  .redCircleWrapper {
+    position: absolute;
+    top: -44px;
+    left: -850px;
+    transform: translate(-30%, -30%);
+    z-index: 0;
+    width: 50%;
+    height: 40%;
+  }
+  
+  .yellowCircleWrapper {
+    position: absolute;
+    bottom: -88px;
+    right: -100px;
+    z-index: 0;
+    width: 60%;
+    height: 60%;
+  }
+  
+
+  .frontImageWrapper {
+    position: relative;
+    z-index: 1;
+    right: 50px;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+    .imageContainer {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .redCircleWrapper {
+      top: -30px;
+      left: -450px;
+      width: 50%;
+      height: 35%;
+    }
+  
+    .yellowCircleWrapper {
+      bottom: -60px;
+      right: -50px;
+      width: 55%;
+      height: 55%;
+    }
+  
+    .frontImageWrapper {
+      position: relative;
+      right: 0;
+      display: none; 
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .redCircleWrapper {
+      top: -20px;
+      left: -300px;
+      width: 40%;
+      height: 30%;
+    }
+  
+    .yellowCircleWrapper {
+      bottom: -50px;
+      right: -20px;
+      width: 50%;
+      height: 50%;
+    }
+  
+    .frontImageWrapper {
+      position: relative;
+      right: 0;
+      left: 0;
+      display: none; 
+    }
+  }
+  
