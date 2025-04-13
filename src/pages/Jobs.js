@@ -3,7 +3,6 @@ import styles from './components/css/Jobs.module.css';
 import jobCards  from './components/data/jobs.json';
 import JobList from './components/reuseComponent/JobList';
 import PaginationControls from './components/reuseComponent/PaginationControls';
-console.log(jobCards);
 export default function Jobs() {
   return (
     <section className={styles.section}>
