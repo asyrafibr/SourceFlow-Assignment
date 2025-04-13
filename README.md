@@ -23,6 +23,12 @@ This project replicates a simple company website using React.js and Next.js, wit
 - **Bootstrap CSS**: Front-end framework for responsive, mobile-first design.
 - **React Bootstrap**: Bootstrap components built with React.
 
+### Security Best Practices
+- Security headers implemented via `next.config.js`
+- No use of `dangerouslySetInnerHTML`
+- No API keys or secrets exposed in frontend
+- Clean console (no logs or debug info in production)
+
 ## Getting Started
 
 ## Installation
