@@ -10,7 +10,6 @@ This project replicates a simple company website using React.js and Next.js, wit
 ## Features
 
 - Fully responsive layout using Bootstrap.
-- Dynamic content rendering with Next.js.
 - Clean and maintainable code structure.
 - Placeholder images for easy content update.
 - Optimized for performance.
