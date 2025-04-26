@@ -1,4 +1,3 @@
-// components/JobCard.js
 import React from "react";
 import Image from "next/image";
 import styles from '../../components/css/Jobs.module.css';
@@ -17,26 +16,26 @@ export default function JobCard({ job, idx }) {
         }}
       >
         <div className={styles.cardContent}>
-          <span className={styles.badge} style={{ color: job.textColor }}>
-            <Image src={job.iconLanguage} alt="Badge Icon" width="16" height="16" />
+          <span className={styles.badge} style={{ color: job.textColor}}>
+            <Image src={job.iconLanguage} alt="Badge Icon" width="10" height="10" />
             {job.badge}
           </span>
-          <h5 className={styles.cardTitle}>{job.title}</h5>
+          <p className={styles.cardTitle}>{job.title}</p>
           <ul className={styles.detailList}>
             <li className={styles.detailItem}>
-              <Image src={job.locationLogo} alt="Location" width="13" height="16" />
+              <Image src={job.locationLogo} alt="Location" width="20" height="20" />
               {job.location}
             </li>
             <li className={styles.detailItem}>
-              <Image src={job.wageLogo} alt="Wage" width="17" height="16" />
+              <Image src={job.wageLogo} alt="Wage" width="20" height="20" />
               {job.wage}
             </li>
           </ul>
-          <h5 className={styles.jobDetail}>{job.detail}</h5>
+          <p className={styles.jobDetail}>{job.detail}</p>
           <button className={`btn btn-light ${styles.jobButton}`}>
-            View the job
+            View this job
           </button>
-          <h5 className={styles.postedDate}>{job.posted}</h5>
+          <p className={styles.postedDate}>{job.posted}</p>
         </div>
       </div>
     </div>

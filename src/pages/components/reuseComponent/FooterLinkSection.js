@@ -3,7 +3,7 @@ import styles from '../css/Footer.module.css';
 
 const FooterLinkSection = ({ title, links = [] }) => (
   <div>
-    <h5 className={styles.heading}>{title}</h5>
+    <p className={styles.heading}>{title}</p>
     <ul className={styles.linkList}>
       {links.map((item, idx) => (
         <li key={idx}>

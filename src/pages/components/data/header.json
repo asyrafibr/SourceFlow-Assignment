@@ -1,16 +1,73 @@
 {
   "menuItemsMobile": [
-    "For jobseekers",
-    "For clients",
-    "Sectors",
-    "Resources",
-    "Upload CV",
-    "Contact us"
+    {
+      "label": "For jobseekers",
+      "submenuItems": [
+        { "label": "Find a Job", "href": "#" },
+        { "label": "Upload CV", "href": "#" }
+      ]
+    },
+    {
+      "label": "For clients",
+      "submenuItems": [
+        { "label": "Our Services", "href": "#" },
+        { "label": "Request Talent", "href": "#" }
+      ]
+    },
+    {
+      "label": "Sectors",
+      "submenuItems": [
+        { "label": "IT & Tech", "href": "#" },
+        { "label": "Finance", "href": "#" },
+        { "label": "Healthcare", "href": "#" }
+      ]
+    },
+    {
+      "label": "Resources",
+      "submenuItems": [
+        { "label": "Blog", "href": "#" },
+        { "label": "Guides", "href": "#" },
+        { "label": "FAQs", "href": "#" }
+      ]
+    },
+    {
+      "label": "Upload CV"
+      
+    }, {
+      "label": "Contact us"
+      
+    }
   ],
   "menuItemsDesktop": [
-    "For jobseekers",
-    "For clients",
-    "Sectors",
-    "Resources"
+    {
+      "label": "For jobseekers",
+      "submenuItems": [
+        { "label": "Find a Job", "href": "#" },
+        { "label": "Upload CV", "href": "#" }
+      ]
+    },
+    {
+      "label": "For clients",
+      "submenuItems": [
+        { "label": "Our Services", "href": "#" },
+        { "label": "Request Talent", "href": "#" }
+      ]
+    },
+    {
+      "label": "Sectors",
+      "submenuItems": [
+        { "label": "IT & Tech", "href": "#" },
+        { "label": "Finance", "href": "#" },
+        { "label": "Healthcare", "href": "#" }
+      ]
+    },
+    {
+      "label": "Resources",
+      "submenuItems": [
+        { "label": "Blog", "href": "#" },
+        { "label": "Guides", "href": "#" },
+        { "label": "FAQs", "href": "#" }
+      ]
+    }
   ]
 }

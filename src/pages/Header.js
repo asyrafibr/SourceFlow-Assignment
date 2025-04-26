@@ -30,7 +30,6 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
-        {/* Mobile View */}
         <div className={styles.mobileMenuContainer}>
           <button
             ref={buttonRef}
@@ -39,31 +38,45 @@ export default function Header() {
           >
             <Menu size={24} />
           </button>
+
+          <div className={styles.logoContainerMobile}>
+            <LogoTitle />
+          </div>
+
           {isDropdownOpen && (
             <MobileDropdownMenu items={menuItemsMobile} dropdownRef={dropdownRef} />
           )}
         </div>
 
-        <div className={styles.logoContainerMobile}>
-          <LogoTitle />
-        </div>
-
-        {/* Desktop View */}
         <div className={styles.desktopMenuContainer}>
           <div className={styles.desktopLogoContainer}>
             <LogoTitle />
           </div>
           <nav className={styles.desktopMenu}>
             {menuItemsDesktop.map((item, idx) => (
-              <NavigationLink key={idx} label={item} className={styles.desktopMenuItem} />
+              <div key={idx} className={styles.desktopMenuItem}>
+                <NavigationLink label={item.label} className={styles.desktopMenuLink} />
+                {item.submenuItems && (
+                  <ul className={styles.submenu}>
+                    {item.submenuItems.map((subItem, subIdx) => (
+                      <li key={subIdx} className={styles.submenuItem}>
+                        <a href={subItem.href} className={styles.submenuLink}>
+                          {subItem.label}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
             ))}
           </nav>
           <div className={styles.buttonGroup}>
-            <RoundedButton label="Contact us" />
-            <RoundedButton label="Upload CV" color="#F99D76" />
+            <RoundedButton label="Upload CV" />
+            <RoundedButton label="Contact us" color="#F99D76" />
           </div>
         </div>
       </div>
     </header>
   );
 }
+

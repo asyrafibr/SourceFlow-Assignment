@@ -8,8 +8,8 @@ const Hero = () => {
     <section className={styles.heroSection}>
       <div className={styles.heroContainer}>
         <div className={styles.heroTextWrapper}>
-          <p>Software Recruitment Specialists</p>
-          <h1>Elevate your career.</h1>
+          <p style={{fontSize:"16px",fontWeight:400}}>Software Recruitment Specialists</p>
+          <p className={styles.mainTitle}>Elevate your career</p>
           <HeroInputGroup />
         </div>
 

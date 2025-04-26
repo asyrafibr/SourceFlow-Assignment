@@ -9,7 +9,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.footerContainer}>
       <div className={styles.footerTop}>
-      <h7>Software Recruitment co.</h7>
+      <p style={{fontSize:'19px', fontWeight:'700'}}>Software Recruitment co.</p>
       <SocialIconList icons={footerData.socialIcons || []} />
     </div>
 

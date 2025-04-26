@@ -7,7 +7,7 @@ export default function Jobs() {
   return (
     <section className={styles.section}>
       <div className={styles.container}>
-        <h2 className={styles.title}>Latest Jobs</h2>
+        <p className={styles.title}>Latest Jobs</p>
         <JobList jobs={jobCards} />
         <div className={styles.navButtons}>
           <PaginationControls />

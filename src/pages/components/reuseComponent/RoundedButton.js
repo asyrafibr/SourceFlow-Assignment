@@ -8,6 +8,8 @@ export default function RoundedButton({ label, color = '#FCDF69', fullWidth = fa
       style={{
         backgroundColor: color,
         borderRadius: '30px',
+        fontSize: '16px',
+        fontWeight: 700,
       }}
     >
       {label}

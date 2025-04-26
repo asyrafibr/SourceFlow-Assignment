@@ -1,8 +1,58 @@
-/* Header.module.css */
 .header {
   background-color: white;
   border-bottom: 1px solid #ddd;
   padding: 1rem 0;
+  position: relative;
+  z-index: 100;
+}
+
+.submenu {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  top: 100%;
+  left: 0;
+  z-index: 10;
+  width: 200px;
+}
+
+.submenuItem {
+  padding: 8px 16px;
+}
+
+.submenuLink {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  padding: 8px 0;
+}
+
+.submenuLink:hover {
+  color: #064ea4;
+}
+
+.desktopMenuItem {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 8px 16px; 
+  border-radius: 5px;
+  transition: background-color 0.3s ease; 
+}
+
+.desktopMenuItem:hover {
+  background-color: transparent;
+}
+
+.desktopMenuItem:hover .submenu {
+  display: block;
+  animation: slideDown 0.3s ease-out;
 }
 
 .container {
@@ -12,9 +62,20 @@
   flex-wrap: wrap;
 }
 
-/* Mobile Menu Button */
 .mobileMenuContainer {
-  display: block;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  width: 100%;
+  padding: 0 15px; 
+}
+
+.logoContainerMobile {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-grow: 1; 
+  text-align: center; 
 }
 
 .mobileMenuButton {
@@ -23,24 +84,15 @@
   padding: 0.5rem;
   cursor: pointer;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  color: black; /* add this just in case it’s inheriting white on white */
+  color: black;
 }
 
 .mobileMenuButton svg {
   width: 24px;
   height: 24px;
-  stroke: currentColor; /* ensure icon takes the color from the button */
-}
-/* Mobile logo container */
-.logoContainerMobile {
-  display: flex;
-  justify-content: center;
-  flex-grow: 1;
+  stroke: currentColor;
 }
 
-/* Desktop Menu Container */
 .desktopMenuContainer {
   display: flex;
   justify-content: space-between;
@@ -48,24 +100,23 @@
   align-items: center;
 }
 
-/* Hide mobile menu and mobile logo on desktop */
 @media (min-width: 768px) {
   .mobileMenuContainer {
-    display: none;  /* Hide the mobile menu button */
+    display: none;
   }
   .logoContainerMobile {
-    display: none;  /* Hide mobile logo */
+    display: none;
   }
   .desktopMenuContainer {
     display: flex;
   }
 }
 
-/* Desktop Menu */
 .desktopLogoContainer {
   display: flex;
   align-items: center;
   padding-left: 3rem;
+  margin-left: 3rem;
 }
 
 .desktopMenu {
@@ -73,15 +124,10 @@
   gap: 1rem;
 }
 
-.desktopMenuItem {
-  cursor: pointer;
-}
-
 .buttonGroup {
   display: flex;
   gap: 1rem;
   padding-right: 3rem;
-
 }
 
 .dropdownHover:hover {
@@ -89,10 +135,10 @@
   border-radius: 5px;
 }
 
-/* Mobile-specific styles */
 @media (max-width: 767px) {
   .mobileMenuContainer {
-    display: block;  /* Show the mobile menu button */
+    display: flex;
+    justify-content: space-between;
   }
 
   .desktopMenuContainer {

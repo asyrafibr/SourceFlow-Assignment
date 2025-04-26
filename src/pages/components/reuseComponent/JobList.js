@@ -1,4 +1,3 @@
-// components/JobList.js
 import React from "react";
 import JobCard from "../reuseComponent/JobsCard";
 import styles from '../../components/css/Jobs.module.css';

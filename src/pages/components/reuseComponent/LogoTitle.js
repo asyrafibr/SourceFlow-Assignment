@@ -1,8 +1,14 @@
 export default function LogoTitle() {
-    return (
-      <h5 className="mb-0 text-center" style={{ color: "#064EA4", fontWeight: 700 }}>
-        Software Recruitment co.
-      </h5>
-    );
-  }
-  
+  return (
+    <div
+      className="mb-0 text-center"
+      style={{
+        color: "#064EA4",
+        fontWeight: 700,
+        fontSize: "20px", 
+      }}
+    >
+      Software Recruitment co.
+    </div>
+  );
+}

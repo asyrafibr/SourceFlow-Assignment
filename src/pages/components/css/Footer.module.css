@@ -22,17 +22,20 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-   margin-top: -5px;
+   margin-top: -20px;
   }
   
   .heading {
     margin-bottom: 1rem;
+    font-size: 33px;
+    font-weight: 700;
   }
   
   .linkList {
     list-style: none;
     padding: 0;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 400;
   }
   
   .linkList li {
@@ -54,7 +57,7 @@
   }
   
   .footerLinksWrapper > * {
-    flex: 1 1 30%; /* 3 per row on large, 2 or 1 per row on small */
+    flex: 1 1 30%;
     min-width: 120px;  }
   
 

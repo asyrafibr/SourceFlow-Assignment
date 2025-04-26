@@ -1,4 +1,3 @@
-
 import React from "react";
 import Image from "next/image";
 import forntImage from "../../../../public/images/frontHome.png";
@@ -10,7 +9,6 @@ const HeroImages = () => {
   return (
     <div className={styles.heroImageWrapper}>
       <div className={styles.imageContainer}>
-        {/* Red Circle */}
         <div className={styles.redCircleWrapper}>
           <Image
             src={redCircle}
@@ -20,7 +18,6 @@ const HeroImages = () => {
             className="img-fluid"
           />
         </div>
-        {/* Yellow Circle */}
         <div className={styles.yellowCircleWrapper}>
           <Image
             src={yellowCircle}
@@ -30,14 +27,14 @@ const HeroImages = () => {
             className="img-fluid"
           />
         </div>
-        {/* Front Image */}
         <div className={styles.frontImageWrapper}>
           <Image
             src={forntImage}
             alt="Candidate"
-            width={320}
-            height={300}
-            className="img-fluid rounded w-100"
+            width={507}
+            height={600}
+            className={styles.customImage}
+
           />
         </div>
       </div>
