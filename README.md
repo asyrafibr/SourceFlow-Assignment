@@ -10,7 +10,6 @@ This project replicates a simple company website using React.js and Next.js, wit
 ## Features
 
 - Fully responsive layout using Bootstrap.
-- Dynamic content rendering with Next.js.
 - Clean and maintainable code structure.
 - Placeholder images for easy content update.
 - Optimized for performance.
@@ -23,7 +22,7 @@ This project replicates a simple company website using React.js and Next.js, wit
 - **Bootstrap CSS**: Front-end framework for responsive, mobile-first design.
 - **React Bootstrap**: Bootstrap components built with React.
 
-### Security Best Practices
+## Security
 - Security headers implemented via `next.config.js`
 - No use of `dangerouslySetInnerHTML`
 - No API keys or secrets exposed in frontend
