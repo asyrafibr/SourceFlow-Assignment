@@ -23,11 +23,11 @@ export default function JobCard({ job, idx }) {
           <p className={styles.cardTitle}>{job.title}</p>
           <ul className={styles.detailList}>
             <li className={styles.detailItem}>
-              <Image src={job.locationLogo} alt="Location" width="20" height="20" />
+              <Image src={job.locationLogo} alt="Location" width="14" height="20" />
               {job.location}
             </li>
             <li className={styles.detailItem}>
-              <Image src={job.wageLogo} alt="Wage" width="20" height="20" />
+              <Image src={job.wageLogo} alt="Wage" width="18" height="12" />
               {job.wage}
             </li>
           </ul>

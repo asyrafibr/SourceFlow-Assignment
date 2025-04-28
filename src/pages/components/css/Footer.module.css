@@ -26,7 +26,6 @@
   }
   
   .heading {
-    margin-bottom: 1rem;
     font-size: 33px;
     font-weight: 700;
   }
@@ -34,8 +33,7 @@
   .linkList {
     list-style: none;
     padding: 0;
-    font-size: 16px;
-    font-weight: 400;
+  
   }
   
   .linkList li {
@@ -45,6 +43,8 @@
   .link {
     color: white;
     text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
   }
   
   .link:hover {

@@ -9,12 +9,17 @@ const HeroInputGroup = () => {
       <input
         type="text"
         className="form-control"
-        placeholder="e.g. React Developer"
+        placeholder="E.g. networking"
         style={{
           borderTopLeftRadius: "30px",
           borderEndStartRadius: "30px",
-          height: "100%",
+          height: "62px",
           padding: "0 1rem",
+          borderWidth: "1px",
+          borderColor: "#CACACA",
+          padding: "10px 20px 10px 20px",
+
+          
         }}
       />
       <button
@@ -22,12 +27,12 @@ const HeroInputGroup = () => {
           borderTopRightRadius: "30px",
           borderEndEndRadius: "30px",
           backgroundColor: "#FCDF69",
-          height: "100%",
-          padding: "0 1.5rem",
+          height: "62px",
+          padding: "10px 20px 10px 20px",
           color: "#25210E",
           fontSize: "16px",
           fontWeight: 700,
-          border: "none",
+     
         }}
       >
         Search Jobs

@@ -6,7 +6,7 @@ const SocialIconList = ({ icons=[] }) => (
   <div className={styles.socialIcons}>
     {icons.map((icon, idx) => (
       <a key={idx} href={icon.href} target="_blank" rel="noopener noreferrer">
-        <Image src={icon.src} alt={icon.name} width={22} height={22} />
+        <Image src={icon.src} alt={icon.name} width={22} height={21} />
       </a>
     ))}
   </div>
